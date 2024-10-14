@@ -1,0 +1,263 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    height: 12vh;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+div.left > svg {
+    padding: 0 10px;
+}
+
+.left img {
+    width: 30%;
+}
+
+header > div {
+    width: 25%;
+}
+
+header > div.center {
+    width: 40%;
+}
+
+div.left {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+    align-items: center;
+}
+
+div.center {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+    align-items: center;
+}
+
+div.right {
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row;
+    align-items: center;
+}
+
+.center > input {
+    width: 100%;
+    padding: 10px;
+    border-radius: 40px 0 0 40px;
+    color: grey;
+    border-color: gray;
+}
+
+.center > .lupa {
+    background-color: #d3d3d3;
+    padding: 11.8px 20px;
+    border-radius: 0px 154px 153px 0px;
+}
+
+.center > .mic {
+    background-color: #d3d3d3;
+    padding: 12px 14px;
+    margin-left: 20px;
+    border-radius: 200px;
+}
+
+.right {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.video {
+    padding: 16px;
+}
+
+.sino {
+    padding: 16px;
+}
+
+.bolinha {
+    background-color: #000000;
+    padding: 8px 16px;
+    margin-left: 20px;
+    border-radius: 50%;
+    background-image: url(../img/logo\ bolinha.jpg);
+    background-size: cover;
+}
+
+/* Ajustes para rolagem independente */
+
+main {
+    display: flex;
+    min-height: 87vh;
+    overflow: auto; /* Evita overflow horizontal */
+}
+
+aside {
+    width: 18%;
+    overflow-y: auto; /* Habilita rolagem vertical no aside */
+    height: 87vh; /* Mesma altura que o main */
+}
+
+section {
+    width: 82%; /* Ajuste da largura para somar 100% com o aside */
+    overflow-y: auto; /* Habilita rolagem vertical na section */
+    height: 87vh; /* Mesma altura que o main */
+}
+
+article {
+    display: flex;
+    flex-direction: column;
+}
+
+article > div {
+    display: flex;
+    justify-content: flex-start;
+    padding: 11.5px;
+}
+
+article > div:hover {
+    background-color: rgba(128, 128, 128, 0.479);
+}
+
+.first {
+    background-color: rgba(128, 128, 128, 0.61);
+}
+
+.st {
+    margin-right: 30px;
+    padding: 0px 5px;
+    color: black;
+}
+
+.icon {
+    margin-right: 30px;
+    padding: 0px 5px;
+    color: #adadad;
+}
+
+.vids {
+    margin-left: 3px;
+}
+
+hr {
+    margin-top: 10px;
+}
+
+ol {
+    list-style-type: none; /* Remove a numeração */
+    padding-left: 0; /* Remove o espaçamento padrão da lista */
+}
+
+h3 {
+    margin-left: 20px;
+    padding: 10px;
+}
+
+.bolinhas{
+    padding: 10px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.Tim-maia{
+    background-image: url(../img/timmaia.jpg);
+    background-size: cover;
+}
+.legiaourbana{
+    background-image: url(../img/legiaourbana.jpg);
+    background-size: cover;
+}
+.cartola{
+    background-image: url(../img/cartola.jpg);
+    background-size: cover;
+}
+.jamelao{
+    background-image: url(../img/jamelao.jpg);
+    background-size: cover;
+}
+.cazuza{
+    background-image: url(../img/cazuza.jpg);
+    background-size: cover;
+}
+.criolo{
+    background-image: url(../img/criolo.jpg);
+    background-size: cover;
+}
+.titas{
+    background-image: url(../img/titas.jpg);
+    background-size: cover;
+}
+.raul{
+    background-image: url(../img/raul.jpg);
+    background-size: cover;
+}
+
+ol{
+display: flex;
+flex: 1;
+justify-content: center;
+}
+li{
+    padding: 6px 11px;
+    color:black;
+    border-radius: 8px;
+    background-color: rgba(0, 0, 0, 0.05);
+    margin: 5px;
+    
+}
+li.black{
+    padding: 6px 11px;
+    color:rgb(255, 255, 255);
+    border-radius: 8px;
+ 
+    background-color: rgb(0, 0, 0);
+    margin: 5px;
+    
+}
+
+.right{
+    margin-top: 10px;
+    margin-left: 10px;
+    color:gray;
+}
+
+.video-area {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 colunas de tamanho igual */
+    grid-template-rows: repeat(2, auto); /* 2 linhas automáticas (baseadas no conteúdo) */
+    gap: 100px 18px; /* Espaçamento entre os vídeos */
+    padding: 20px;
+}
+
+.videos {
+    background-color: #f0f0f0;
+    padding: 20px;
+    text-align: center;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    min-height: 160px;
+    -webkit-box-shadow: 0px -9px 11px -6px rgba(0,0,0,0.64);
+    -moz-box-shadow: 0px -9px 11px -6px rgba(0,0,0,0.64);
+    box-shadow: 0px -9px 11px -6px rgba(0,0,0,0.64);
+}
+
+.thedoors{
+    background-image: url(../img/thedoors.jpg);
+    background-size: cover;
+}
+
+.pixies{
+    background-image: url(../img/pixies.webp);
+    background-size: cover;
+}
+.bacoexu{
+    background-image: url(../img/bacoexu.webp);
+    background-size: cover;
+}
